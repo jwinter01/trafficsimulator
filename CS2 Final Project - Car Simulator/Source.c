@@ -10,32 +10,32 @@ THIS PROGRAM WILL RUN A TRAFFIC SIMULATER IN THE CONSOLE WINDOW BASED ON THE RUL
 MADE IN THE PROJECT. EACH OF THE STREETS ARE NAMED A, B, BUP, C, CRIGHT, D, DDOWN,
 AND E. THE MAP LOOKS SOMETHING LIKE THIS:
 	
-    ENTER/EXIT			    ENTER/EXIT
-	   \  \					  /  /
-	    \  \       A -->     /  /
+            ENTER/EXIT		    ENTER/EXIT
+	       \  \		      /  /
+	        \  \       A -->     /  /
 		|   ----------------    | 
-	^	|						|   ^
-	|	|						|	|
-	|	|						|	|
-	D	|						|  BUP
-  DDOWN	|						|   B
-	|	|		   E -->		|	|
-	|	|-----------------------|	|
-	v	|						|	v
-		|						|
-	     -----------------------
+	^	|			|   ^
+	|	|			|   |
+	|	|			|   |
+	D	|			|  BUP
+  	DDOWN	|			|   B
+	|	|	 E -->		|   |
+	|	|-----------------------|   |
+	v	|			|   v
+		|			|
+	     	 -----------------------
 		     <-- C CRIGHT -->
 
 RULES:
 ________|_____________________________________
-A		|	CARS CAN ENTER A, OR LEAVE A TO B
-B		|	CARS CAN LEAVE B TO C
-BUP		|	CARS CAN EXIT THE SIMULATOR
-C		|	CARS CAN LEAVE C TO D
+A	|	CARS CAN ENTER A, OR LEAVE A TO B
+B	|	CARS CAN LEAVE B TO C
+BUP	|	CARS CAN EXIT THE SIMULATOR
+C	|	CARS CAN LEAVE C TO D
 CRIGHT	|	CARS CAN LEAVE CRIGHT TO BUP
-D		|	CARS CAN EXIT THE SIMULATOR
+D	|	CARS CAN EXIT THE SIMULATOR
 DDOWN	|	CARS CAN LEAVE DDOWN TO CRIGHT OR E
-E		|	CARS CAN LEAVE E TO BUP OR C
+E	|	CARS CAN LEAVE E TO BUP OR C
 
 * CARS CAN RANDOMLY ENTER THE SIMULATION AT THE ENTER/EXITS
 			
